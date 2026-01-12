@@ -1,0 +1,25 @@
+.background {
+  align-items: center;
+  display: flex;
+  height: 100dvh;
+  justify-content: center;
+  position: fixed;
+  width: 100dvw;
+  z-index: -1;
+}
+
+.background {
+  background: var(--background-primary);
+}
+
+.background img {
+  height: auto;
+  width: 100dvw;
+}
+
+@media (max-width: 850px) {
+  .background img {
+    height: 100dvh;
+    width: auto;
+  }
+}
