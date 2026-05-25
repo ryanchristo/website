@@ -15,7 +15,7 @@ const TechPage = () => {
           <h1>{"tech"}</h1>
           <p>
             {
-              "I'm a self-taught software engineer. I started out building websites back in 2012 after graduating college with a liberal arts degree."
+              "I'm a self-taught software engineer. I started building websites back in 2012 after graduating college with a liberal arts degree."
             }
           </p>
           <p>
@@ -25,22 +25,48 @@ const TechPage = () => {
           </p>
           <p>
             {
-              "I became passionate about web3 technologies and have since been working on projects building blockchain tools and infrastructure."
+              "I later became passionate about web3 technologies and worked on projects building governance tools and blockchain infrastructure."
+            }
+          </p>
+          <p>
+            {
+              "More recently I've been learning about agentic systems and building a multi-agent management system and knowledge framework."
             }
           </p>
           <hr />
           <div className={styles.item}>
+            <h2>{"Chora AI | 2026 - Present"}</h2>
+            <p>
+              <i>{"Software Engineer, Protocol Researcher"}</i>
+            </p>
+            <p>
+              {
+                "Chora AI is a research project focused on local-first and privacy-preserving tools and infrastructure for specialized agents. Chora AI is an evolving side project that is currently stewarded by Chora Studio."
+              }
+            </p>
+            <p>
+              <i>{"Rust, LLMs"}</i>
+            </p>
+            <p>
+              {/*<Link href="https://chora.studio/chora-ai" target="_blank">
+                {"website"}
+              </Link>
+              {" | "}*/}
+              <Link href="https://github.com/chora-ai" target="_blank">
+                {"source"}
+              </Link>
+            </p>
             <h2>{"Chora Studio | 2024 - Present"}</h2>
             <p>
               <i>{"Owner, Software Engineer, Protocol Researcher"}</i>
             </p>
             <p>
               {
-                "Chora Studio is a software research and development company building software for commons governance and ecological regeneration. Chora Studio also provides consultation and network services."
+                "Chora Studio is a software research and development company building software for agentic systems and decentralied protocols. Chora Studio also offers research and development as a service."
               }
             </p>
             <p>
-              <i>{"Go, TypeScript, Cosmos"}</i>
+              <i>{"Rust, LLMs, Go, TypeScript, Cosmos"}</i>
             </p>
             <p>
               <Link href="https://chora.studio" target="_blank">
@@ -80,13 +106,13 @@ const TechPage = () => {
             </p>
           </div>
           <div className={styles.item}>
-            <h2>{"Chora | 2020 - Present"}</h2>
+            <h2>{"Chora | 2020 - 2023"}</h2>
             <p>
               <i>{"Software Engineer, Protocol Researcher"}</i>
             </p>
             <p>
               {
-                "Chora is software for commons governance and ecological regeneration built with distributed ledger technology. Chora started out as an evolving side project and has since become a product of Chora Studio."
+                "Chora is software for commons governance and ecological regeneration built with distributed ledger technology. Chora started out as an evolving side project that later became a product of Chora Studio."
               }
             </p>
             <p>

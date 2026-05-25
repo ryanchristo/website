@@ -14,25 +14,31 @@ const AboutPage = () => {
           <h1>{"about"}</h1>
           <p>
             {
-              "I was born and raised in the Pacific Northwest. I grew up on an island playing competitive sports and experimental rock music."
-            }
-          </p>
-          <p>
-            {
               "I studied liberal arts in college with a focus on classical languages, critical and cultural theory, and film studies. I also participated in an extracurricular program for film production focused on cinematography."
             }
           </p>
           <p>
             {
-              "I bounced around jobs after college but eventually settled into a career as a software engineer in the web3 ecosystem. I now research and develop tools and infrastructure for a variety of decentralized protocols."
+              "I bounced around jobs after college but eventually settled into a career as a software engineer in the web3 ecosystem. I now research and develop tools and infrastructure for decentralized protocols and agentic systems."
             }
           </p>
           <hr />
           <div className={styles.item}>
-            <h2>{"2018 - present"}</h2>
+            <h2>{"2024 - present"}</h2>
             <p>
               {
-                "building and exploring distributed systems, governance frameworks, and decentralized monitoring, reporting, and verification"
+                "exploring decentralized protocols, agentic systems, open-source software, open-source hardware, and privacy-preserving technologies"
+              }
+            </p>
+            <p>
+              {
+                "researching and producing digital media on topics including philosophy of technology, emerging technologies, and cognitive security"
+              }
+            </p>
+            <h2>{"2018 - 2024"}</h2>
+            <p>
+              {
+                "developed software for distributed systems, governance frameworks, and decentralized monitoring, reporting, and verification"
               }
             </p>
             <p>

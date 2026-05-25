@@ -14,7 +14,7 @@ const AccountsPage = () => {
           <h1>{"accounts"}</h1>
           <p>
             {
-              "For social media and other public platforms, the following is a complete list of personal accounts that I currently own:"
+              "The following is a complete list of public accounts that I currently own:"
             }
           </p>
           <div style={{ padding: "0.5em 0" }}>
@@ -47,7 +47,17 @@ const AccountsPage = () => {
                 >
                   {"bluesky"}
                 </a>
-                <i>{" - for following projects"}</i>
+                <i>{" - for research projects"}</i>
+              </li> */}
+              {/* <li>
+                <a
+                  href="https://substack.com/@ryanchristo"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  {"substack"}
+                </a>
+                <i>{" - for research projects"}</i>
               </li> */}
               <li>
                 <a
@@ -59,6 +69,26 @@ const AccountsPage = () => {
                 </a>
                 <i>{" - for software notes"}</i>
               </li>
+              {/* <li>
+                <a
+                  href="https://gitlab.com/ryanchristo"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  {"gitlab"}
+                </a>
+                <i>{" - for software projects"}</i>
+              </li> */}
+              {/* <li>
+                <a
+                  href="https://tangled.org/ryanchristo.tngl.sh"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  {"tangled"}
+                </a>
+                <i>{" - for software projects"}</i>
+              </li> */}
               <li>
                 <a
                   href="https://www.npmjs.com/~ryanchristo"

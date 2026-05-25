@@ -15,17 +15,12 @@ const SolutionsPage = () => {
           <h1>{"film"}</h1>
           <p>
             {
-              "I studied film and film production while earning a degree in languages and literature. I also helped with student and local film projects."
+              "I studied film and film production alongside my studies in classical languages and literature. I also helped with student and local film projects."
             }
           </p>
           <p>
             {
               "The height of my filmmaking pursuits was around 2010 when I co-produced an experimental short film and a feature-length documentary."
-            }
-          </p>
-          <p>
-            {
-              "I don't have plans to continue filmmaking at the moment but I still see and think in frames and remain open to exploring new narratives."
             }
           </p>
           <hr />

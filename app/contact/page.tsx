@@ -12,20 +12,20 @@ const ContactPage = () => {
       <div className={styles.content}>
         <div>
           <h1>{"contact"}</h1>
-          <p>
-            {
-              "I try to take a minimalist approach to communication platforms. We can stay connected using one of the following options:"
-            }
-          </p>
+          <p>{"We can stay connected using one of the following options:"}</p>
           <ul>
             <li>
               {"Email"}
-              {": ryan [at] ryanchristo.com"}
+              {": contact [at] ryanchristo.com"}
             </li>
             <li>
               {"Signal"}
               {": [ available upon request ]"}
             </li>
+            {/*<li>
+              {"Telegram"}
+              {": [ available upon request ]"}
+            </li>*/}
           </ul>
           <p>
             <i>
